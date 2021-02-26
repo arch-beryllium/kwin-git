@@ -1,3 +1,4 @@
 *
 !PKGBUILD
 !kwin-git.install
+!disable-pipewire.patch

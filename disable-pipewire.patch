@@ -1,0 +1,14 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 532ab1016..391801905 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -400,9 +400,6 @@ add_feature_info("SCHED_RESET_ON_FORK"
+                  "Required for running kwin_wayland with real-time scheduling")
+ 
+ 
+-pkg_check_modules(PipeWire IMPORTED_TARGET libpipewire-0.3)
+-add_feature_info(PipeWire PipeWire_FOUND "Required for Wayland screencasting")
+-
+ ########### global ###############
+ 
+ include_directories(BEFORE
